@@ -1,3 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: rebeccapurple;
+}
+
+.todolist {
+    padding: 12px;
+    background-color: whitesmoke;
+    width: 30vw;
+    border: 2px solid black;
+}
+
+.task {
+    padding: 12px;
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 8vh;
+    width: 24vw;
+    border: 2px solid black;
+    border-radius: 8px;
 }
